@@ -1,0 +1,79 @@
+/* Font for everything */
+:not(input) {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+/* Red heading */
+p.custom-heading {
+  text-align: center;
+  color: #ec5c57;
+  font-size: 1rem;
+}
+
+/* Form styles */
+#container {
+  justify-content: center;
+  margin: 0 25rem;
+}
+
+.form-font {
+  font-size: 0.65rem;
+  letter-spacing: normal;
+}
+
+::placeholder {
+  text-transform: none;
+  font-family: 'AtlasGrotesk', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: normal;
+  color: #a3a7a0;
+}
+
+label {
+  margin: 0.75rem;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 40px;
+  border: solid 1px #a3a7a0;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 0.2rem 0 1rem 0;
+}
+
+#number-of-engineers {
+  text-transform: none;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 3px;
+  letter-spacing: normal;
+}
+
+button {
+  background-color: #ec5c57;
+  color: whitesmoke;
+  font-weight: normal;
+  letter-spacing: normal;
+  box-sizing: border-box;
+  width: 90px;
+  height: 30px;
+  border-radius: 2rem;
+  border: none;
+  margin: 10px;
+}
+
+#button-container {
+  margin-left: 22rem;
+}
+
+button:hover {
+  background-color: #a3a7a0;
+  cursor: pointer;
+}
