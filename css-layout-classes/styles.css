@@ -1,0 +1,35 @@
+/* Font */
+* {
+  font-family: sans-serif;
+}
+
+/* Row display flex */
+.container {
+  margin: 0 5rem;
+}
+
+.row {
+  display: flex;
+}
+
+/* Image Sizing */
+.image-character {
+  width: 100%;
+}
+
+/* Columns */
+.column-full {
+  width: 100%;
+}
+
+.column-third {
+  width: calc(100% / 3);
+}
+
+.column-fourth {
+  width: 25%;
+}
+
+.column-twothirds {
+  width: calc(200% / 3);
+}
