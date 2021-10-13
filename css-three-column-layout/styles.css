@@ -1,0 +1,48 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h2 h3 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.container {
+  background-color: #1a96da;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 200px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-basis: auto;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-third {
+  width: calc(100% / 3);
+  margin: auto;
+}
+
+.img-round-container {
+  border-radius: 50%;
+  background-color: white;
+  width: 35%;
+  height: auto;
+  margin: auto;
+}
+
+.img-icon {
+  width: 100%;
+  padding: 25%;
+}
