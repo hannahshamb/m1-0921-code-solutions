@@ -1,0 +1,52 @@
+body {
+  font-family: "Karla", sans-serif;
+  line-height: 2rem;
+}
+
+h1 {
+  font-size: 300%;
+  letter-spacing: 0.4rem;
+}
+
+h1,
+h3,
+button {
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 1120px;
+}
+
+.column-full {
+  margin: 5% 15%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-icon {
+  width: 75%;
+}
+
+.column-three-eighth {
+  width: calc(300% / 8);
+}
+
+button {
+  background-color: white;
+  color: salmon;
+  border: solid salmon;
+  padding: 0.75rem 3.5em;
+  font-weight: bold;
+}
