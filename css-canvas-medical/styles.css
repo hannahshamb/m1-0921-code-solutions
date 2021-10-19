@@ -1,0 +1,218 @@
+/* Font */
+h1 {
+  font-family: "Tiempos Headline", serif;
+}
+
+.triple-spacing {
+  line-height: 5rem;
+}
+
+:not(h1) {
+  font-family: "Avenir", sans-serif;
+  font-size: large;
+  line-height: 2rem;
+}
+
+.white {
+  color: white;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.grey-text {
+  color: #868686;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  line-height: 3rem;
+}
+
+/* Containers */
+.container {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1900px;
+  margin: 2rem 6rem;
+}
+
+header {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1900px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.img-logo {
+  width: auto;
+  height: 2rem;
+}
+
+.img-logo-top {
+  padding: 0 45rem 0 5rem;
+}
+
+.img-logo-bottom {
+  margin: 0 0 2rem;
+}
+
+.row {
+  width: 100%;
+}
+
+.column-full {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.column-two-container {
+  display: flex;
+  justify-content: center;
+}
+
+.column-two {
+  padding: 0 15rem;
+  width: 50%;
+}
+
+.hero-img {
+  width: 1440px;
+  margin: 5rem;
+}
+
+.hero-content {
+  position: absolute;
+  width: 700px;
+  height: auto;
+  left: 20rem;
+  top: 20rem;
+}
+
+.get-started-button {
+  color: white;
+  background-color: #284464;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  border: none;
+  width: 200px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 90px;
+  left: auto;
+  width: 1440px;
+  height: 810px;
+}
+
+.light-grey-background {
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.light-grey-background-border {
+  border-bottom: solid 2px #f6f6f8;
+  background-color: #fafafa;
+  padding: 4rem 0 10rem 0;
+  width: 100%;
+}
+
+.small-text-box {
+  width: 700px;
+  margin: 5rem 0 0 0;
+}
+
+.no-bottom-margin {
+  flex-direction: column;
+  margin: 25px 0 0 75px;
+}
+
+div.no-bottom-margin > h1 {
+  margin: 25px 0 0 0;
+}
+
+.bottom-margin {
+  margin: 25px 0;
+}
+
+.left-margin {
+  margin: 0 0 0 75px;
+}
+
+h1 > button {
+  margin: 0 0 0 65rem;
+}
+
+.dark-grey-background {
+  background-color: #525350;
+  padding: 10rem 10rem 10rem 0;
+}
+
+.column-fourth {
+  width: calc(100% / 4);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.spacing-little-padding {
+  padding: 0 0 0 0;
+}
+
+/* Links and ul formatting */
+ul.ul-nav {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: #c2c3c4;
+}
+
+a:hover {
+  color: white;
+  background-color: #284464;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+ul.ul-footer {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 20%;
+  margin: 0;
+  padding: 40px 0;
+  font-weight: bold;
+}
+
+/* Sectioning Line formatting */
+
+.sectioning-line {
+  height: 1px;
+  max-width: 1920px;
+  min-width: 1900px;
+  background-color: #c2c3c4;
+  border: none;
+  margin: 0 0 0 75px;
+}
