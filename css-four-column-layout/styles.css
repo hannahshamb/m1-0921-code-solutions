@@ -1,0 +1,63 @@
+
+/* Fonts */
+
+* {
+  font-family: 'Barlow', sans-serif;
+  line-height: xs;
+}
+
+h1,
+h3 {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Container Elements */
+
+.how-it-works {
+  background-color: #f7f8fa;
+  width: 1330px;
+  margin: auto;
+}
+
+.container {
+  width: 1330px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 0 9rem;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-four {
+  width: calc(100% / 4);
+  margin: 0 1.5rem;
+  font-size: 75%;
+}
+
+.column-four-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-margin {
+  margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+/* Image Sizing */
+
+.screen-img {
+  width: 100%;
+}
+
+.icon-img {
+  width: 60px;
+}
