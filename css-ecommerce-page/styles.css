@@ -1,0 +1,48 @@
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.light-grey {
+  color: lightgray;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.highlighted {
+  background-color: peachpuff;
+  border-radius: 0.2rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.container {
+  width: 1330px;
+}
+
+.row {
+  display: flex;
+  margin: 0.5rem 2rem;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-fourth {
+  width: 25%;
+  margin: 0.5rem;
+}
+
+.product-img {
+  width: 100%;
+}
