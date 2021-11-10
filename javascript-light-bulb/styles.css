@@ -1,0 +1,31 @@
+.container {
+  max-width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.black {
+  background-color: black;
+}
+
+.container.cream {
+  background-color: #fef9f1;
+}
+
+.circle {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100rem;
+}
+
+.circle.translucent {
+  background-color: grey;
+  opacity: 0.35;
+}
+
+.circle.light {
+  background-color: #fbea84;
+  border: solid 5px #fef3c3;
+}
