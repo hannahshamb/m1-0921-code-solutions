@@ -3,6 +3,7 @@ var $modal = document.querySelectorAll('.modal');
 var $closeMod = document.querySelector('.close-mod');
 var $openMod = document.querySelector('.open-mod');
 
+// open up the modal
 function toggleOpen(event) {
   $container.classList.remove('toggle');
   $modal[0].classList.remove('toggle');
@@ -10,6 +11,7 @@ function toggleOpen(event) {
   $modal[2].classList.remove('toggle');
 }
 
+// close the modal
 $openMod.addEventListener('click', toggleOpen);
 
 function toggleClose(event) {

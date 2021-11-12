@@ -1,7 +1,9 @@
+/* font */
 * {
   font-family: sans-serif;
 }
 
+/* buttons */
 button {
   padding: 10px;
   border-radius: 0.4rem;
@@ -26,10 +28,12 @@ button:hover {
   cursor: pointer;
 }
 
+/* on/off */
 .toggle {
   display: none;
 }
 
+/* background colors */
 .container.translucent-background {
   background-color: black;
   opacity: 80%;
