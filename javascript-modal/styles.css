@@ -1,0 +1,62 @@
+/* font */
+* {
+  font-family: sans-serif;
+}
+
+/* buttons */
+button {
+  padding: 10px;
+  border-radius: 0.4rem;
+  border: none;
+  font-size: large;
+  color: white;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 0.4);
+}
+
+button.purple {
+  background-color: #4a4ae9;
+  width: 200px;
+  z-index: 0;
+}
+
+button.red {
+  background-color: #eb5d5d;
+  width: 100px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* on/off */
+.toggle {
+  display: none;
+}
+
+/* background colors */
+.container.translucent-background {
+  background-color: black;
+  opacity: 80%;
+  height: 1600px;
+  width: 4000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.modalcontainer {
+  width: 500px;
+  height: 200px;
+  position: fixed;
+  top: 20rem;
+  left: 50rem;
+  background-color: white;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  z-index: 2;
+}
