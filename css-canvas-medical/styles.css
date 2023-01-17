@@ -1,6 +1,8 @@
 /* Font */
 h1 {
   font-family: "Tiempos Headline", serif;
+  font-size: 2.5rem;
+  line-height: normal;
 }
 
 .triple-spacing {
@@ -9,12 +11,16 @@ h1 {
 
 :not(h1) {
   font-family: "Avenir", sans-serif;
-  font-size: large;
-  line-height: 2rem;
+  font-size: 22px;
+  line-height: 1.5rem;
 }
 
 .white {
   color: white;
+}
+
+.serif {
+  font-family: "Tiempos Headline", serif;
 }
 
 .text-align-center {
@@ -83,16 +89,43 @@ nav {
 .column-two-container {
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: auto;
 }
 
 .column-two {
-  padding: 0 15rem;
   width: 50%;
+}
+
+.padding-15 {
+  padding: 0 15rem;
+}
+
+.m-2 {
+  margin: 1rem 4rem;
+}
+
+.p-2 {
+  padding: 0 45px;
+}
+
+.p-1 {
+  padding: 0 20px;
+}
+
+.m-0 {
+  margin: 0;
 }
 
 .hero-img {
   width: 1440px;
-  margin: 5rem;
+  height: auto;
+  margin: 4rem;
+}
+
+.img-100p {
+  width: 100%;
+  height: auto;
 }
 
 .hero-content {
@@ -116,7 +149,7 @@ nav {
 .overlay {
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
-  top: 90px;
+  top: 89px;
   left: auto;
   width: 1440px;
   height: 810px;
@@ -184,12 +217,22 @@ ul.ul-nav {
   width: 100%;
 }
 
-a:any-link {
+a.normal {
+  text-decoration: none;
+  color: navy;
+}
+
+a.normal:hover {
+  color: purple;
+  cursor: pointer;
+}
+
+a.nav {
   text-decoration: none;
   color: #c2c3c4;
 }
 
-a:hover {
+a.nav:hover {
   color: white;
   background-color: #284464;
   text-decoration: none;
